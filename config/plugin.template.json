@@ -1,0 +1,31 @@
+{
+	"agents" : [
+	    {
+			"name" : "My Pinger",
+			"host" : "localhost",
+			"useproxy" : "false",
+			"proxyprotocol" : "https",
+			"proxyhost" : "",
+			"proxyport" : "",
+			"proxyuser" : "",
+			"proxypassword" : "",
+			"nonproxyhosts" : "",
+			"timeout" : "3000",
+			"failstatustime" : "5",
+			"failstatusresettime" : "3",
+			"threadpoolsize" : "20",
+			"urls" : [
+				{
+					"name" : "google(ssl)",
+					"url" : "https://www.google.com"
+				},
+				{
+					"name" : "yahoo",
+					"url" : "http://www.yahoo.com"
+				}
+			]
+	    }
+	]
+
+}
+

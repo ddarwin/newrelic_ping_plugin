@@ -1,0 +1,8 @@
+{
+	"license_key" 			: "NEW_RELIC_LICENSE_KEY",
+	"log_level" 			: "info",
+	"log_file_name" 		: "newrelic_plugin.log",
+	"log_file_path" 		: "logs",
+	"log_limit_in_kbytes" 	: "0"
+}
+
